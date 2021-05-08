@@ -3,7 +3,7 @@ import { DEFAULT_LIST_OF_LISTS, DEFAULT_TOKEN_LIST_URL } from '../../constants/l
 import { updateVersion } from '../global/actions'
 import { fetchTokenList, acceptListUpdate, addList, removeList, selectList } from './actions'
 import reducer, { ListsState } from './reducer'
-import PANCAKESWAP_DEFAULT_TOKEN_LIST from '../../constants/token/pantherswap.json'
+import PANCAKESWAP_DEFAULT_TOKEN_LIST from '../../constants/token/apefinance.json'
 
 const STUB_TOKEN_LIST = {
   name: '',
@@ -509,7 +509,7 @@ describe('list reducer', () => {
       })
 
       it('each of those initialized lists is empty', () => {
-        const {byUrl} = store.getState()
+        const { byUrl } = store.getState()
         // note we don't expect the uniswap default list to be prepopulated
         // this is ok.
         Object.keys(byUrl).forEach(url => {

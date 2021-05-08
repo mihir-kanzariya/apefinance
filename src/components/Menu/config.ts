@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://pantherswap.com/',
+    href: 'https://apefinance.com/',
   },
   {
     label: 'Trade',
@@ -21,7 +21,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'LP Migration',
-        href: 'https://docs.pantherswap.com/amm-launch',
+        href: 'https://docs.apefinance.com/amm-launch',
       },
       {
         label: 'PancakeSwap',
@@ -32,32 +32,32 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://pantherswap.com/farms',
+    href: 'https://apefinance.com/farms',
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'https://pantherswap.com/pools',
+    href: 'https://apefinance.com/pools',
   },
   {
     label: 'Jungles',
     icon: 'JungleIcon',
-    href: 'https://pantherswap.com/jungles',
+    href: 'https://apefinance.com/jungles',
   },
   {
     label: 'Lottery',
     icon: 'TicketIcon',
-    href: 'https://pantherswap.com/lottery',
+    href: 'https://apefinance.com/lottery',
   },
   {
     label: 'Referrals',
     icon: 'ReferralIcon',
-    href: 'https://pantherswap.com/referrals',
+    href: 'https://apefinance.com/referrals',
   },
   {
     label: 'Audits',
     icon: 'ShieldIcon',
-    href: 'https://docs.pantherswap.com/security/audits',
+    href: 'https://docs.apefinance.com/security/audits',
   },
   {
     label: 'Features',
@@ -65,19 +65,19 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Automatic LP',
-        href: 'https://docs.pantherswap.com/tokenomics/automatic-liquidity',
+        href: 'https://docs.apefinance.com/tokenomics/automatic-liquidity',
       },
       {
         label: 'Automatic Burning',
-        href: 'https://docs.pantherswap.com/tokenomics/automatic-burning',
+        href: 'https://docs.apefinance.com/tokenomics/automatic-burning',
       },
       {
         label: 'Harvest Lockup',
-        href: 'https://docs.pantherswap.com/tokenomics/harvest-lockup',
+        href: 'https://docs.apefinance.com/tokenomics/harvest-lockup',
       },
       {
         label: 'Anti-Whale',
-        href: 'https://docs.pantherswap.com/tokenomics/anti-whale',
+        href: 'https://docs.apefinance.com/tokenomics/anti-whale',
       },
     ],
   },
@@ -113,19 +113,19 @@ const config: MenuEntry[] = [
       },
       {
         label: 'DappRadar',
-        href: 'https://dappradar.com/binance-smart-chain/defi/pantherswap',
+        href: 'https://dappradar.com/binance-smart-chain/defi/apefinance',
       },
       {
         label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/pantherswap',
+        href: 'https://www.coingecko.com/en/coins/apefinance',
       },
       {
         label: 'LiveCoinWatch',
-        href: 'https://www.livecoinwatch.com/price/PantherSwap-PANTHER',
+        href: 'https://www.livecoinwatch.com/price/apefinance-APE',
       },
       {
         label: 'Vfat',
-        href: 'https://vfat.tools/bsc/panther',
+        href: 'https://vfat.tools/bsc/ape',
       },
     ],
   },
@@ -159,19 +159,19 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Overview',
-        href: 'https://pantherswap.info',
+        href: 'https://apefinance.info',
       },
       {
         label: 'Tokens',
-        href: 'https://pantherswap.info/tokens',
+        href: 'https://apefinance.info/tokens',
       },
       {
         label: 'Pairs',
-        href: 'https://pantherswap.info/pairs',
+        href: 'https://apefinance.info/pairs',
       },
       {
         label: 'Accounts',
-        href: 'https://pantherswap.info/accounts',
+        href: 'https://apefinance.info/accounts',
       },
     ],
   },
@@ -190,23 +190,23 @@ const config: MenuEntry[] = [
       // },
       {
         label: 'Github',
-        href: 'https://github.com/pantherswap',
+        href: 'https://github.com/apefinance',
       },
       {
         label: 'Docs',
-        href: 'https://docs.pantherswap.com',
+        href: 'https://docs.apefinance.com',
       },
       {
         label: 'Roadmap',
-        href: 'https://docs.pantherswap.com/roadmap',
+        href: 'https://docs.apefinance.com/roadmap',
       },
       {
         label: 'Blog',
-        href: 'https://pantherswap.medium.com',
+        href: 'https://apefinance.medium.com',
       },
       {
         label: 'Voting',
-        href: 'https://voting.pantherswap.com/',
+        href: 'https://voting.apefinance.com/',
       },
     ],
   },

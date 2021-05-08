@@ -1,6 +1,6 @@
 {
-  "name": "pantherswap-frontend-swap",
-  "description": "PantherSwap Interface",
+  "name": "apefinance-frontend-swap",
+  "description": "ApeFinance Interface",
   "homepage": ".",
   "private": true,
   "dependencies": {

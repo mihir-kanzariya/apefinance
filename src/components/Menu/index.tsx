@@ -15,8 +15,8 @@ const Menu: React.FC = (props) => {
   const { isDark, toggleTheme } = useTheme()
   const priceData = useGetPriceData()
 
-  const pantherAddress = '0x1f546aD641B56b86fD9dCEAc473d1C7a357276B7'
-  const cakePriceUsd = priceData && priceData.data[pantherAddress] ? Number(priceData.data[pantherAddress].price) : Number(0)
+  const apeAddress = '0x1f546aD641B56b86fD9dCEAc473d1C7a357276B7'
+  const cakePriceUsd = priceData && priceData.data[apeAddress] ? Number(priceData.data[apeAddress].price) : Number(0)
   // const profile = useGetLocalProfile()
 
   return (
@@ -41,7 +41,7 @@ const Menu: React.FC = (props) => {
       langs={allLanguages}
       setLang={setSelectedLanguage}
       cakePriceUsd={cakePriceUsd}
-      cakePriceLink={`https://bscscan.com/token/${pantherAddress}`}
+      cakePriceLink={`https://bscscan.com/token/${apeAddress}`}
       /* profile={profile} */
       {...props}
     />
