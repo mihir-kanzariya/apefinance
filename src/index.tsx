@@ -1,9 +1,6 @@
 import React, { StrictMode } from 'react'
 import ReactDOM from 'react-dom'
-import { ResetCSS } from '@pancakeswap-libs/uikit'
-
-// import { ResetCSS } from 'apefinance-toolkit';
-
+import { ResetCSS } from '@apefinance-libs/uikit'
 import GlobalStyle from './style/Global'
 import App from './pages/App'
 import ApplicationUpdater from './state/application/updater'

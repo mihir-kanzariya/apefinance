@@ -1,7 +1,7 @@
 import React, { useContext, useMemo } from 'react'
 import styled, { ThemeContext } from 'styled-components'
 import { Trade, TradeType } from '@pantherswap-libs/sdk'
-import { Button, Text } from '@pancakeswap-libs/uikit'
+import { Button, Text } from '@apefinance-libs/uikit'
 import { ArrowDown, AlertTriangle } from 'react-feather'
 
 import { Field } from '../../state/swap/actions'
@@ -78,8 +78,8 @@ export default function SwapModalHeader({
               priceImpactSeverity > 2
                 ? theme.colors.failure
                 : showAcceptChanges && trade.tradeType === TradeType.EXACT_INPUT
-                ? theme.colors.primary
-                : 'text'
+                  ? theme.colors.primary
+                  : 'text'
             }
           >
             {trade.outputAmount.toSignificant(6)}
